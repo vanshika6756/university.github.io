@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>     
+            <p>Safe.Welcoming.Multicultural.Vibrant.
+                Eduford combines world-class education with competent tution fees and access to financial aid like bursaries and scholarships.Bringing together the best and brightest minds within our diverse student body is the spark that makes a brighter world possible.Eduford is ranked among the world’s top 85 universities.We take teaching and learning seriously, and it shows.The Eduford Method — small group, problem-based learning with early exposure to relevant real-world experience — has been adopted by countless universities around the world. It’s all part of our mission to discover, share and preserve knowledge with a commitment to creativity, excellence and innovation in teaching.Eduford research teams are making discoveries and advancing knowledge in every discipline.we support on and off-campus student success through inclusion, community engagement and activities that promote personal growth, health and well-being.Together, We create an engaging, enriching educational experience.</p><br>START YOUR JOURNEY<br>
+                Our student recruitment team are waiting to hear from you.<br><br>
+            <a href="" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Safe.Welcoming.Multicultural.Vibrant.<br>Eduford combines world-class education with competent tution fees and access to financial aid like bursaries and scholarships.</br></p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <i class="fa fa-heart-o"></i>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
